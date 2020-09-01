@@ -1,0 +1,78 @@
+body #xmain{ padding-right: 0px !important;}
+
+.responsive {
+    width: 100%;
+    height: auto;
+	max-width: 728px !important;
+	max-height: 90px !important;
+}
+.responsive-square {
+    width: 100%;
+    height: auto;
+	max-width: 600px !important;
+	min-width: 300px !important;
+	max-height: 600px !important;
+}
+.btn-watch-area {
+	position: absolute !important;}
+	
+#xsidebar {
+    top: 80px !important;
+
+}	
+	
+header .header-logo {
+    float: left;
+    height: 100%;
+    display: inline-block;
+    background: #c91c55 url(https://cdn.yescdn.ru/images/logo-shadow.png) top center no-repeat;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+header .header-logo h1{ font-size: 0; margin: 0;}
+header .container{ width: 100% !important; margin: 0; padding: 0;}
+#logo{
+	background-image: url(../images/logo.png);
+	background-position: 50% 25%;
+	background-size: cover;
+	height: 38px;
+	width: 180px;
+	margin: 16px 20px;
+	display: inline-block;}	
+	
+	
+iframe[Attributes Style] {
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+    border-left-width: 0px !important;
+    width: 100% !important;
+ 
+}
+
+
+iframe{
+    border-top-width: 0px !important;
+    border-right-width: 0px !important;
+    border-bottom-width: 0px !important;
+    border-left-width: 0px !important;
+    width: 100% !important;
+
+}
+.movies-list .ml-item {
+    border-radius: 10px !important;
+	}
+	
+	
+@media screen and (max-width: 520px)
+header .header-logo #logo {
+    margin: 6px 0 !important;
+}
+
+
+
+	
+	
+	
